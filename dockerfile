@@ -17,4 +17,4 @@ ENV PORT=8000
 EXPOSE 8000
 
 # Comando para iniciar
-CMD ["python", "sleep_quotes_mcp_server.py"]
+CMD ["python", "sleep_advice_server.py"]
