@@ -711,7 +711,7 @@ if __name__ == "__main__":
         # Modo web para despliegue
         port = int(os.getenv("PORT", 8000))
         uvicorn.run(
-            "sleep_quotes_mcp_server:app",
+            "sleep_advice_server:app",
             host="0.0.0.0",
             port=port,
             reload=False
